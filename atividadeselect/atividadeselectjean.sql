@@ -2,7 +2,7 @@
 
 /*Atividade 1*/
 /*a) - Todos os estádios.*/
-SELECT * FROM estadios;
+SELECT nome FROM estadios;
 /*b) - Somente os camisa 10, em ordem alfabética.*/
 SELECT * FROM jogadores WHERE numero = 10 ORDER BY nome ASC;
 /*c) - Todos os atacantes(posição) do Brasil(selecao)*/
