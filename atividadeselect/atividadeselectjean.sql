@@ -38,4 +38,3 @@ SELECT selecao, sum(idade) AS somaIdades FROM jogadores GROUP BY selecao HAVING 
 SELECT nome, idade FROM jogadores WHERE idade BETWEEN 23 and 27;
 /*h) - Quantidade de jogadores com idade diferente de 25 anos*/
 SELECT count(idade) AS quantidade FROM jogadores WHERE idade <> 25;
-/*h) - Quantidade de jogadores com idade diferente de 25 anos*/
